@@ -2,3 +2,22 @@
     font-family: "Main";
     src: url(Assets/fonts/GillSans\ Condensed.otf);
 }
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  border: 1px solid gray;
+  border-bottom: transparent;
+  border-top: transparent;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: blue; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}

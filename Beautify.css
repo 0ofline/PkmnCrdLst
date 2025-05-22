@@ -5,25 +5,6 @@
     margin: 0;
 }
 
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-::-webkit-scrollbar-track {
-  border: 1px solid gray;
-  border-bottom: transparent;
-  border-top: transparent;
-}
- 
-::-webkit-scrollbar-thumb {
-  background: blue; 
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
-}
-
 html {
  margin: 5%;   
 }
@@ -39,47 +20,76 @@ main {
     top: 50%;
 
     .card-con {
-        background-color: gray;
-        height: 0;
-        width: 0;
+        flex-direction: column;
+        height: max-content;
+        position: relative;
+        width: max-content;
+        display: flex;
+
+        row-gap: 1cqw;
+        top: 0;
 
         .card-view {
-            height: 0px;
-            width: 0px;
+            height: 486px;
+            width: 323px;
+        }
+        
+        .pack-logo {
+            width: 323px;
+            top: -7cqw;
+        }
+
+        .card-text {
+            transform: translate(-50%, -50%);
+            position: absolute;
+            text-align: center;
+            text-wrap: nowrap;
+            display: block;
+
+            letter-spacing: -1px;
+            word-spacing: -5px;
+            line-height: 3cqh;
+            font-size: 2cqw;
+            width: 60%;
+            left: 50%;
+            top: 45%;
         }
     }
 
-    .cardToggle {
-        background-color: gray;
+    
+    .content-border {
         height: max-content;
         width: max-content;
 
-        .card-view {
-            height: 546px;
-            width: 393px;
-        }
-    }
+        .card-listing-content{
+            background-color: rgba(131, 129, 129, 0.466);
+            justify-content: space-evenly;
+            overflow-y: scroll;
+            flex-wrap: wrap;
+            display: flex;
 
+            border: 1.5cqw solid red;
+            border-radius: 20px;
 
-    .card-listing-content{
-        background-color: rgba(131, 129, 129, 0.466);
-        justify-content: space-evenly;
-        overflow-y: scroll;
-        flex-wrap: wrap;
-        display: flex;
-        
+            padding: 5cqh 1cqw;
+            column-gap: 3cqw;
+            row-gap: 2cqh;
+            height: 60vh;
+            width: 45vw;
 
-        padding: 5cqh 2.5cqw;
-        height: 70vh;
-        width: 50vw;
-        gap: 3cqw;
-
-        .wherecard {
-            cursor: pointer;
-            background-color: red;
-
-            width: 156px;
-            height: 209px;        
+            .wherecard {
+                background-color: transparent;
+                border: 1px solid black;
+                cursor: pointer;
+                
+                border-radius: 10px;
+                width: 156px;
+                height: 209px;        
+            }
+            
+            .wherecard:hover {
+                transform: scale(1.05);
+            }
         }
     }
 }

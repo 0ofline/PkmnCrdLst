@@ -9,17 +9,24 @@ var washere = "I'm mostly just here for emotional support :3 -Kyutka3"; //We mad
 
 console.log(messageOne + messageTwo + messageThree + messageFour + messageFive + messageSix + signature);
 
+
 function displayCard(card) {
-    let toggle = document.querySelector('.card-con').classList;
     let imagePlaceholder = document.querySelector('.card-view');
     let cards = document.querySelectorAll('.wherecard');
 
+    
     cards.forEach(card => {
         card.addEventListener('click', function () {
             imagePlaceholder.src = this.src;
-            toggle.toggle("cardToggle");
+            
+            console.log('You clicked a card'); //Debug Line!
+            document.querySelector('.card-text').style.display = "none";
         });
     });
+    }
 
-    console.log('You clicked a card'); //Debug Line!
-}
+const images = document.querySelectorAll('img');
+
+images.forEach((img, index) => {
+    img.onclick = displayCard()
+});
