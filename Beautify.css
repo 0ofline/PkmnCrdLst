@@ -1,6 +1,6 @@
 * {
     font-family: "Main";
-    
+
     padding: 0;
     margin: 0;
 }
@@ -10,7 +10,7 @@
 }
 
 html {
- padding: 10vh 5vw;   
+ margin: 5%;   
 }
 
 main {
@@ -24,11 +24,13 @@ main {
     top: 50%;
 
     aside {
-        height: 60vh;
+        background-color: gray;
+        height: max-content;
+        width: max-content; 
 
         img {
-            width: auto;
-            height: 100%;
+            width: 393px;
+            height: 546px;
         }
     }
 

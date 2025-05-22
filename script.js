@@ -7,3 +7,10 @@ var messageSix = "Just don't start complaining when you see how ass I write code
 var signature = "Yours Truly, Jideeh\n\n";
 
 console.log(messageOne + messageTwo + messageThree + messageFour + messageFive + messageSix + signature);
+
+function displayCard(image) {
+    let imagePlaceholder = document.querySelector('card-view');
+
+    
+    console.log('You clicked a card'); //Debug Line!
+}
