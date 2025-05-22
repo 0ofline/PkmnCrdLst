@@ -1,0 +1,7 @@
+.card-listing-content{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    background-color: rgba(131, 129, 129, 0.466);
+    padding: 16px;
+}
