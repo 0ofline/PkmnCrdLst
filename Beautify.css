@@ -39,27 +39,29 @@ main {
     top: 50%;
 
     .card-con {
-        background-color: gray;
-        height: 0;
-        width: 0;
-
-        .card-view {
-            height: 0px;
-            width: 0px;
-        }
-    }
-
-    .cardToggle {
-        background-color: gray;
         height: max-content;
+        position: relative;
         width: max-content;
 
         .card-view {
             height: 546px;
             width: 393px;
         }
-    }
 
+        .card-text {
+            transform: translate(-50%, -50%);
+            position: absolute;
+            text-align: center;
+            display: block;
+
+            letter-spacing: -1px;
+            font-size: 3cqw;
+            line-height: 1;
+            width: 60%;
+            left: 50%;
+            top: 30%;
+        }
+    }
 
     .card-listing-content{
         background-color: rgba(131, 129, 129, 0.466);

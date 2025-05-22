@@ -1,6 +1,16 @@
-[
-    {
-        
+{
+    "Pokemon": {
+        "Types": [
+            "grass",
+            "fire",
+            "water",
+            "Lightning",
+            "Psychic",
+            "Fighting",
+            "Dark",
+            "Metal",
+            "Dragon",
+            "Colorless"
+        ]
     }
-
-]
+}
