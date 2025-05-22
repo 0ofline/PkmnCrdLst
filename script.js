@@ -5,6 +5,7 @@ var messageFour = "Seriously though, if you just want to take some JS functions,
 var messageFive = "find it on: https://github.com/Jideeh1\n\n";
 var messageSix = "Just don't start complaining when you see how ass I write code. ーｗー\n\n";
 var signature = "Yours Truly, Jideeh\n\n";
+var washere = "I'm mostly just here for emotional support :3 -Kyutka3"; //We made this ouf of boredom...
 
 console.log(messageOne + messageTwo + messageThree + messageFour + messageFive + messageSix + signature);
 
