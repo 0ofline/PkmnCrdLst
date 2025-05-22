@@ -8,9 +8,17 @@ var signature = "Yours Truly, Jideeh\n\n";
 
 console.log(messageOne + messageTwo + messageThree + messageFour + messageFive + messageSix + signature);
 
-function displayCard(image) {
-    let imagePlaceholder = document.querySelector('card-view');
+function displayCard(card) {
+    let toggle = document.querySelector('.card-con').classList;
+    let imagePlaceholder = document.querySelector('.card-view');
+    let cards = document.querySelectorAll('.wherecard');
 
-    
+    cards.forEach(card => {
+        card.addEventListener('click', function () {
+            imagePlaceholder.src = this.src;
+            toggle.toggle("cardToggle");
+        });
+    });
+
     console.log('You clicked a card'); //Debug Line!
 }

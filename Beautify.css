@@ -1,12 +1,27 @@
 * {
+    transition: all .5s ease-in-out;
     font-family: "Main";
-
     padding: 0;
     margin: 0;
 }
 
 ::-webkit-scrollbar {
-    display: hidden;
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  border: 1px solid gray;
+  border-bottom: transparent;
+  border-top: transparent;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: blue; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
 }
 
 html {
@@ -23,14 +38,25 @@ main {
     left: 50%;
     top: 50%;
 
-    aside {
+    .card-con {
+        background-color: gray;
+        height: 0;
+        width: 0;
+
+        .card-view {
+            height: 0px;
+            width: 0px;
+        }
+    }
+
+    .cardToggle {
         background-color: gray;
         height: max-content;
-        width: max-content; 
+        width: max-content;
 
-        img {
-            width: 393px;
+        .card-view {
             height: 546px;
+            width: 393px;
         }
     }
 
@@ -56,8 +82,4 @@ main {
             height: 209px;        
         }
     }
-}
-
-.common {
-    display: none;
 }
