@@ -43,11 +43,13 @@ main {
             transform: translate(-50%, -50%);
             position: absolute;
             text-align: center;
+            text-wrap: nowrap;
             display: block;
 
             letter-spacing: -1px;
-            font-size: 3cqw;
-            line-height: 1;
+            word-spacing: -5px;
+            line-height: 3cqh;
+            font-size: 2cqw;
             width: 60%;
             left: 50%;
             top: 45%;
