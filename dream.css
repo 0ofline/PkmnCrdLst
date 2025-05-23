@@ -3,6 +3,26 @@
     src: url(Assets/fonts/GillSans\ Condensed.otf);
 }
 
+@keyframes flip3D {
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes floatUp {
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes bob {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 ::-webkit-scrollbar {
   width: 20px;
 }
