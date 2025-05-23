@@ -107,14 +107,24 @@ main {
             width: 45vw;
             z-index: 1;
 
-            .wherecard {
-                background-color: transparent;
-                border: 1px solid black;
-                cursor: pointer;
+            .card{
+                transform: scale(1);
                 
-                border-radius: 10px;
-                width: 106px;
-                height: 169px;        
+                .wherecard {
+                    background-color: transparent;
+                    border: 1px solid black;
+                    cursor: pointer;
+                    
+                    border-radius: 10px;
+                    width: 106px;
+                    height: 169px;        
+                }
+
+                .subtitle {
+                    letter-spacing: 0;
+                    font-size: 1cqw;
+                    width: 106px;
+                }
             }
             
             .wherecard:hover {
