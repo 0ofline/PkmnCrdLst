@@ -29,4 +29,5 @@ const images = document.querySelectorAll('img');
 
 images.forEach((img, index) => {
     img.onclick = displayCard()
+    // img.onhover =
 });
