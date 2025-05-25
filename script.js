@@ -31,3 +31,15 @@ images.forEach((img, index) => {
     img.onclick = displayCard()
     // img.onhover =
 });
+
+gsap.fromTo('.loader-con',
+    {
+    opacity:1,
+    zIndex: 9999
+},
+    
+    {
+    opacity: 0,
+    duration: 1,
+    zIndex: -1,
+})
