@@ -32,8 +32,8 @@ images.forEach((img, index) => {
     // img.onhover =
 });
 
-gsap.fromTo('.loader-con', //Where did you get the loading screen? -Kyutka3
-    {
+gsap.fromTo('.loader-con', //Where did you get the loading screen?
+    {                      //I could mayhaps animate the pokeball in a pixel art GIF format -Kyutka3
     opacity:1,
     zIndex: 9999
 },
