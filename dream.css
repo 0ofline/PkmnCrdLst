@@ -137,6 +137,18 @@
         left: 50%; 
         top:  45%;
     }
+
+    .img-shadow{        
+        transform: translate(-50%, -50%);
+        position: absolute;
+        height: auto;
+        
+        filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.522));
+        width: 5%;
+        left: 50%; 
+        top:  45%;
+
+    }
 }
 
 

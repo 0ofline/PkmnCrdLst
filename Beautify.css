@@ -103,10 +103,10 @@ main {
             column-gap: 3cqw;
             row-gap: 2cqh;
             height: 60vh;
-            width: 45vw;
+            width: 40vw;
             z-index: 1;
 
-            .card{
+            .card {
                 transform: scale(1);
                 
                 .wherecard {
@@ -115,14 +115,14 @@ main {
                     cursor: pointer;
                     
                     border-radius: 10px;
-                    width: 106px;
-                    height: 169px;        
+                    width: 127px;
+                    height: 185.9;
                 }
 
                 .subtitle {
                     letter-spacing: 0;
                     font-size: 1cqw;
-                    width: 106px;
+                    width: max-content;
                 }
             }
             
@@ -131,4 +131,8 @@ main {
             }
         }
     }
+}
+
+.rarity {
+    content: url(Assets/);
 }
