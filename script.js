@@ -32,7 +32,7 @@ images.forEach((img, index) => {
     // img.onhover =
 });
 
-gsap.fromTo('.loader-con',
+gsap.fromTo('.loader-con', //Where did you get the loading screen? -Kyutka3
     {
     opacity:1,
     zIndex: 9999
