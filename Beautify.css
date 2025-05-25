@@ -103,7 +103,7 @@ main {
             column-gap: 3cqw;
             row-gap: 2cqh;
             height: 60vh;
-            width: 40vw;
+            width: 45vw;
             z-index: 1;
 
             .card {
