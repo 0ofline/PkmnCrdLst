@@ -128,18 +128,30 @@ main {
                 .subtitle {
                     justify-content: space-between;
                     height: max-content;
+                    text-align: center;
+                    justify-content: space-between;
                     display: flex;
+                    margin: auto;
 
                     letter-spacing: 0;
                     font-size: 1cqw;
                     width: 106px;
+                    
+                    p {
+                        line-height: 10px;
+                        margin: auto 0;
+                        padding: 5px;
+                    }
 
                     span {
-                        background-color: white;
-                        border: 1px solid black;
-                        border-radius: 10px;
-                        padding: 2px;
-                        font-size: 20px;
+                        background-color: red;
+                        display: inline-block;
+                        color: white;
+                        margin: auto 0;
+                        border-radius: 5px;
+                        padding: 1px 2px;
+                        font-size: .7cqw;
+                        height: max-content;
                     }
                 }
             }

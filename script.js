@@ -7,7 +7,7 @@ var messageSix = "Just don't start complaining when you see how ass I write code
 var signature = "Yours Truly, Jideeh\n\n";
 var washere = "I'm mostly just here for emotional support :3 -Kyutka3"; //We made this ouf of boredom...
 
-console.log(messageOne + messageTwo + messageThree + messageFour + messageFive + messageSix + signature);
+console.log(messageOne + messageTwo + messageThree + messageFour + messageFive + messageSix + signature + washere);
 
 function zoomCenter() {
     var cardView = document.querySelector('.card-view');
