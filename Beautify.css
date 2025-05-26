@@ -5,14 +5,13 @@
     margin: 0;
 }
 html {
-    margin: 5%;
     overflow: hidden;
 }
 
 main {
     transform: translate(-50%, -50%);
     height: max-content;
-    position: absolute;
+    position: fixed;
     display: flex;
 
     gap: 5cqw;
@@ -29,49 +28,55 @@ main {
         height: 80vh;
         top: 0;
 
-        .card-view {
-            cursor: pointer;
-            height: 430px;
-            width: 300px;
-            z-index: 2;
-        }
 
-        .card-view-shadow {
-            background-color: black;
-            position: absolute;
-            
-            border-radius: 10px;
-            filter: blur(10px);
-            bottom: 3.5cqw ;
-            height: 430px;
-            width: 300px;
-            opacity: 0.7;
-            z-index: 1;
-            left: 2cqw;
-            top: 17cqh;
-        }
-        
         .pack-logo {
-            width:243px;
+            width:250px;
             top: -7cqw;
         }
 
-        .card-text {
-            animation: orbit3D 10s ease-in-out infinite;
-            transform: translate(-50%, -50%);
-            position: absolute;
-            text-align: center;
-            text-wrap: nowrap;
-            display: block;
+        .card-view-con{
+            width: max-content;
+            transition: all .2s linear;
 
-            letter-spacing: -1px;
-            word-spacing: -5px;
-            line-height: 4cqh;
-            font-size: 2cqw;
-            width: 100%;
-            z-index: 3;
-            top: 30%;
-        }
+            .card-view {
+                cursor: pointer;
+                height: 380px;
+                width: 250px;
+                z-index: 2;
+            }
+
+            .card-view-shadow {
+                background-color: black;
+                position: absolute;
+                
+                border-radius: 10px;
+                filter: blur(10px);
+                bottom: 3.5cqw ;
+                height: 380px;
+                width: 250px;
+                opacity: 0.7;
+                z-index: -1;
+                left: 5%;
+                top: 5%;
+            }
+
+            .card-text {
+                transform: translate(-50%, -50%);
+                position: absolute;
+                text-align: center;
+                text-wrap: nowrap;
+                display: block;
+
+                letter-spacing: -1px;
+                word-spacing: -5px;
+                line-height: 4cqh;
+                font-size: 1.4cqw;
+                width: 100%;
+                z-index: 3;
+                left: 50%;
+                bottom: -12%;
+            }
+        }  
 
         .card-info {
             height: max-content;
@@ -83,7 +88,7 @@ main {
             
             margin-top: 3cqh;
             width: 223px;
-            z-index: 3;
+            z-index: -1;
             bottom: 0;
 
             h1 {
