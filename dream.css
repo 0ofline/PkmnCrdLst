@@ -9,12 +9,6 @@
   }
 }
 
-* {
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
-
 @keyframes floatUp {
   100% {
     transform: translateY(-20px);
