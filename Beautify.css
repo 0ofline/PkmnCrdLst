@@ -75,7 +75,7 @@ main {
             padding: 15px 10px;
             
             margin-top: 3cqh;
-            width: 223px;
+            width: 230px;
             z-index: -1;
             bottom: 0;
 
@@ -133,6 +133,14 @@ main {
                     letter-spacing: 0;
                     font-size: 1cqw;
                     width: 106px;
+
+                    span {
+                        background-color: white;
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        padding: 2px;
+                        font-size: 20px;
+                    }
                 }
             }
             
@@ -232,12 +240,9 @@ main {
 
 
 
-
-
 .card-toggler {
-    position: fixed;
+    position: absolute;
 
-    scale: 1.6;
     left: 50%;
-    top: 10%;
+    top: 100%
 }

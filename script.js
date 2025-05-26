@@ -9,6 +9,11 @@ var washere = "I'm mostly just here for emotional support :3 -Kyutka3"; //We mad
 
 console.log(messageOne + messageTwo + messageThree + messageFour + messageFive + messageSix + signature);
 
+function zoomCenter() {
+    var cardView = document.querySelector('.card-view');
+
+    cardView.classList.toggle('card-toggler')
+}
 
 function displayCard(card) {
     let imagePlaceholder = document.querySelector('.card-view');
@@ -32,6 +37,7 @@ images.forEach((img, index) => {
     // img.onhover =
 });
 
+
 gsap.fromTo('.loader-con', //Where did you get the loading screen?
     {                      //I could mayhaps animate the pokeball in a pixel art GIF format -Kyutka3
     opacity:1,
@@ -43,4 +49,3 @@ gsap.fromTo('.loader-con', //Where did you get the loading screen?
     duration: 1,
     zIndex: -1,
 })
-
