@@ -35,15 +35,17 @@ main {
         }
 
         .card-view-con{
-            width: max-content;
+            background-color: transparent;
             transition: all .2s linear;
+            width: max-content;
 
             .card-view {
+                filter: drop-shadow(10px 10px 10px black);
+                background-color: transparent;
                 cursor: pointer;
                 height: 380px;
                 width: 250px;
                 z-index: 2;
-                filter: drop-shadow(10px 10px 10px black);
             }
 
             .card-text {
@@ -73,7 +75,7 @@ main {
             padding: 15px 10px;
             
             margin-top: 3cqh;
-            width: 223px;
+            width: 230px;
             z-index: -1;
             bottom: 0;
 
@@ -126,11 +128,31 @@ main {
                 .subtitle {
                     justify-content: space-between;
                     height: max-content;
+                    text-align: center;
+                    justify-content: space-between;
                     display: flex;
+                    margin: auto;
 
                     letter-spacing: 0;
                     font-size: 1cqw;
                     width: 106px;
+                    
+                    p {
+                        line-height: 10px;
+                        margin: auto 0;
+                        padding: 5px;
+                    }
+
+                    span {
+                        background-color: red;
+                        display: inline-block;
+                        color: white;
+                        margin: auto 0;
+                        border-radius: 5px;
+                        padding: 1px 2px;
+                        font-size: .7cqw;
+                        height: max-content;
+                    }
                 }
             }
             
@@ -157,18 +179,76 @@ main {
         content: url(Assets/raritySymbol/uncommon.png);
         vertical-align: middle;
         
-        height: 10px;
-        width: 10px;
         margin: auto 0;
+        height: 13px;
+        width: 13px;
+    }
+}
+.rare {
+    .rarity {
+        content: url(Assets/raritySymbol/rare.png);
+        vertical-align: middle;
+
+        margin: auto 0;
+        height: 13px;
+    }
+}
+
+.doubleRare {
+    .rarity {
+        content: url(Assets/raritySymbol/doubleRare.png);
+        vertical-align: middle;
+        
+        margin: auto 0;
+        height: 15px;
+    }
+}
+
+.ultraRare {
+    .rarity {
+        content: url(Assets/raritySymbol/ultraRare.png);
+        vertical-align: middle;
+        
+        margin: auto 0;
+        height: 15px;
+    }
+}
+
+.illustrationRare {
+    .rarity {
+        content: url(Assets/raritySymbol/illustrationRare.png);
+        vertical-align: middle;
+        
+        margin: auto 0;
+        height: 15px;
+    }
+}
+
+.hyperRare {
+    .rarity {
+        content: url(Assets/raritySymbol/hyperRare.png);
+        vertical-align: middle;
+        
+        margin: auto 0;
+        height: 15px;
+    }
+}
+
+.specialIllustrationRare {
+    .rarity {
+        content: url(Assets/raritySymbol/specialIllustrationRare.png);
+        vertical-align: middle;
+        
+        margin: auto 0;
+        height: 15px;
     }
 }
 
 
 
 .card-toggler {
-    position: fixed;
+    position: absolute;
 
-    scale: 1.6;
     left: 50%;
-    top: 10%;
+    top: 100%
 }
