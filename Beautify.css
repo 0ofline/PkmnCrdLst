@@ -5,7 +5,8 @@
     margin: 0;
 }
 html {
- margin: 5%;   
+    margin: 5%;
+    overflow: hidden;
 }
 
 main {
@@ -20,16 +21,15 @@ main {
 
     .card-con {
         flex-direction: column;
-        height: max-content;
         position: relative;
         width: max-content;
         display: flex;
 
         row-gap: 1cqw;
+        height: 80vh;
         top: 0;
 
         .card-view {
-            animation: orbit3D 10s ease-in-out infinite;
             cursor: pointer;
             height: 406px;
             width: 243px;
@@ -37,7 +37,6 @@ main {
         }
 
         .card-view-shadow {
-            animation: shadowOrbit 10s ease-in-out infinite;
             background-color: black;
             position: absolute;
             
@@ -75,11 +74,26 @@ main {
         }
 
         .card-info {
-            background-color: red;
+            height: max-content;
+
+            background-color: #f8f9f8;
+            border: #afb5b6 solid 2px;
+            border-radius: 10px;
+            padding: 15px 10px;
             
             margin-top: 3cqh;
-            height: 10vh;
-            width: 100%;
+            width: 223px;
+            z-index: 3;
+            bottom: 0;
+
+            h1 {
+                letter-spacing: 1px;
+            }
+            
+            hr {
+                margin: 10px 0;
+                width: 100%;
+            }
         }
     }
 
@@ -88,7 +102,6 @@ main {
         height: max-content;
         width: max-content;
         margin: auto 0;
-
 
         .card-listing-content{
             background-color: rgba(131, 129, 129, 0.466);
@@ -142,4 +155,12 @@ main {
         height: 10px;
         width: 10px;
     }
+}
+
+.card-toggler {
+    position: fixed;
+
+    scale: 1.6;
+    left: 50%;
+    top: 10%;
 }
