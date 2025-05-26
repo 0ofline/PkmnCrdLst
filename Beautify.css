@@ -43,21 +43,7 @@ main {
                 height: 380px;
                 width: 250px;
                 z-index: 2;
-            }
-
-            .card-view-shadow {
-                background-color: black;
-                position: absolute;
-                
-                border-radius: 10px;
-                filter: blur(10px);
-                bottom: 3.5cqw ;
-                height: 380px;
-                width: 250px;
-                opacity: 0.7;
-                z-index: -1;
-                left: 5%;
-                top: 5%;
+                filter: drop-shadow(10px 10px 10px black);
             }
 
             .card-text {
@@ -138,6 +124,10 @@ main {
                 }
 
                 .subtitle {
+                    justify-content: space-between;
+                    height: max-content;
+                    display: flex;
+
                     letter-spacing: 0;
                     font-size: 1cqw;
                     width: 106px;
@@ -153,14 +143,27 @@ main {
 
 .common {
     .rarity {
-        content: url(Assets/Icon.png);
+        content: url(Assets/raritySymbol/common.png);
         vertical-align: middle;
         
-        padding: 10px 0;
         height: 10px;
         width: 10px;
+        margin: auto 0;
     }
 }
+
+.uncommon {
+    .rarity {
+        content: url(Assets/raritySymbol/uncommon.png);
+        vertical-align: middle;
+        
+        height: 10px;
+        width: 10px;
+        margin: auto 0;
+    }
+}
+
+
 
 .card-toggler {
     position: fixed;
