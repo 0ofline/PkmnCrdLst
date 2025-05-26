@@ -43,3 +43,4 @@ gsap.fromTo('.loader-con', //Where did you get the loading screen?
     duration: 1,
     zIndex: -1,
 })
+

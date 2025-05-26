@@ -106,7 +106,7 @@ main {
             width: 45vw;
             z-index: 1;
 
-            .card{
+            .card {
                 transform: scale(1);
                 
                 .wherecard {
@@ -115,16 +115,14 @@ main {
                     cursor: pointer;
                     
                     border-radius: 10px;
-                    width: 138px;
-                    height: 205px;        
+                    width: 106px;
+                    height: 169px;        
                 }
 
                 .subtitle {
                     letter-spacing: 0;
                     font-size: 1cqw;
                     width: 106px;
-                    text-align: center;
-                    margin: 0%;
                 }
             }
             
@@ -132,5 +130,16 @@ main {
                 animation: floatUp 1.2s ease-in-out forwards, bob 2s ease-in-out infinite;
             }
         }
+    }
+}
+
+.common {
+    .rarity {
+        content: url(Assets/Icon.png);
+        vertical-align: middle;
+        
+        padding: 10px 0;
+        height: 10px;
+        width: 10px;
     }
 }

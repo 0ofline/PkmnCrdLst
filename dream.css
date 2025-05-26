@@ -9,6 +9,12 @@
   }
 }
 
+* {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 @keyframes floatUp {
   100% {
     transform: translateY(-20px);
@@ -115,27 +121,42 @@
 }
 
 .loader-con {
-  transform: translate(-50%, -50%);
-    background-color: red;
+    background-color: #b00101;
     position: absolute;
 
     z-index: 1000;
     height: 100vh;
     width: 100vw;
-    left: 50%;
-    top: 50%;
 
-    img {
+    .pokeball {
+        content: url(https://www.svgrepo.com/show/276264/pokeball-pokemon.svg);
+        filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.522));
+
         animation: roll 1s ease-in-out infinite;
         
         transform: translate(-50%, -50%);
         position: absolute;
         height: auto;
         
-        filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.522));
-        width: 5%;
-        left: 50%; 
-        top:  45%;
+        width: 20%;
+        left: 40%;
+        top:  50%;
+        z-index: 1;
+    }
+
+    .img-shadow{        
+        background-color: #edf1f5;
+        position: absolute;
+
+        width: 100vw;
+        height: 15vh;
+        bottom: 0;
+
+    }
+
+    .logo {
+      margin: 4cqh 2cqw;
+      width: 15cqw;
     }
 }
 
