@@ -54,15 +54,17 @@ main {
                 text-align: center;
                 text-wrap: nowrap;
                 display: block;
+                text-shadow: blue 0 0 1px;
+                font-smooth: always;
 
                 letter-spacing: -1px;
                 word-spacing: -5px;
                 line-height: 4cqh;
                 font-size: 1.4cqw;
+                bottom: -12%;
                 width: 100%;
                 z-index: 3;
                 left: 50%;
-                bottom: -12%;
             }
         }  
 

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Main";
-    src: url(Assets/fonts/GillSans\ Condensed.otf);
+    src: url(../../Assets/fonts/GillSans\ Condensed.otf);
 }
 
 @keyframes flip3D {
