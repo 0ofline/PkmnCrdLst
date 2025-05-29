@@ -54,7 +54,7 @@ main {
                 text-align: center;
                 text-wrap: nowrap;
                 display: block;
-                text-shadow: blue 0 0 1px;
+                text-shadow: white 0 0 10px;
                 font-smooth: always;
 
                 letter-spacing: -1px;
@@ -82,7 +82,7 @@ main {
             bottom: 0;
 
             h1 {
-                letter-spacing: 1px;
+                letter-spacing: 0px;
             }
             
             hr {
@@ -131,7 +131,6 @@ main {
                     justify-content: space-between;
                     height: max-content;
                     text-align: center;
-                    justify-content: space-between;
                     display: flex;
                     margin: auto;
 
@@ -167,7 +166,7 @@ main {
 
 .common {
     .rarity {
-        content: url(Assets/raritySymbol/common.png);
+        content: url(../../Assets/raritySymbol/common.png);
         vertical-align: middle;
         
         height: 10px;
@@ -178,7 +177,7 @@ main {
 
 .uncommon {
     .rarity {
-        content: url(Assets/raritySymbol/uncommon.png);
+        content: url(../../Assets/raritySymbol/uncommon.png);
         vertical-align: middle;
         
         margin: auto 0;
@@ -188,7 +187,7 @@ main {
 }
 .rare {
     .rarity {
-        content: url(Assets/raritySymbol/rare.png);
+        content: url(../../Assets/raritySymbol/rare.png);
         vertical-align: middle;
 
         margin: auto 0;
@@ -198,7 +197,7 @@ main {
 
 .doubleRare {
     .rarity {
-        content: url(Assets/raritySymbol/doubleRare.png);
+        content: url(../../Assets/raritySymbol/doubleRare.png);
         vertical-align: middle;
         
         margin: auto 0;
@@ -208,7 +207,7 @@ main {
 
 .ultraRare {
     .rarity {
-        content: url(Assets/raritySymbol/ultraRare.png);
+        content: url(../../Assets/raritySymbol/ultraRare.png);
         vertical-align: middle;
         
         margin: auto 0;
@@ -218,7 +217,7 @@ main {
 
 .illustrationRare {
     .rarity {
-        content: url(Assets/raritySymbol/illustrationRare.png);
+        content: url(../../Assets/raritySymbol/illustrationRare.png);
         vertical-align: middle;
         
         margin: auto 0;
@@ -228,7 +227,7 @@ main {
 
 .hyperRare {
     .rarity {
-        content: url(Assets/raritySymbol/hyperRare.png);
+        content: url(../../Assets/raritySymbol/hyperRare.png);
         vertical-align: middle;
         
         margin: auto 0;
@@ -238,7 +237,7 @@ main {
 
 .specialIllustrationRare {
     .rarity {
-        content: url(Assets/raritySymbol/specialIllustrationRare.png);
+        content: url(../../../Assets/raritySymbol/specialIllustrationRare.png);
         vertical-align: middle;
         
         margin: auto 0;
