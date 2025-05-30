@@ -88,6 +88,29 @@
   }
 }
 
+@keyframes dittoWobble {
+  0% {
+    transform: scale(1, 1) translate(-50%, -50%) rotate(-5deg);
+  }
+  15% {
+    transform: scale(1.1, 0.9) translate(-50%, -50%) rotate(-5deg);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translate(-50%, -50%) rotate(-5deg);
+  }
+  45% {
+    transform: scale(1.05, 0.95) translate(-50%, -50%) rotate(-5deg);
+  }
+  60% {
+    transform: scale(0.95, 1.05) translate(-50%, -50%) rotate(-5deg);
+  }
+  75% {
+    transform: scale(1.02, 0.98) translate(-50%, -50%) rotate(-5deg);
+  }
+  100% {
+    transform: scale(1, 1) translate(-50%, -50%) rotate(-5deg);
+  }
+}
 
 ::-webkit-scrollbar {
   background-color: rgb(45, 34, 34);
@@ -112,46 +135,6 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(187, 174, 174);
-}
-
-.loader-con {
-    background-color: #b00101;
-    position: absolute;
-
-    z-index: 1000;
-    height: 100vh;
-    width: 100vw;
-
-    .pokeball {
-        content: url(https://www.svgrepo.com/show/276264/pokeball-pokemon.svg);
-        filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.522));
-
-        animation: roll 1s ease-in-out infinite;
-        
-        transform: translate(-50%, -50%);
-        position: absolute;
-        height: auto;
-        
-        width: 20%;
-        left: 40%;
-        top:  50%;
-        z-index: 1;
-    }
-
-    .img-shadow{        
-        background-color: #edf1f5;
-        position: absolute;
-
-        width: 100vw;
-        height: 15vh;
-        bottom: 0;
-
-    }
-
-    .logo {
-      margin: 4cqh 2cqw;
-      width: 15cqw;
-    }
 }
 
 
