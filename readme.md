@@ -10,9 +10,6 @@ This website project is meant to be an archive of Kuytka3's pokemon card collect
 
 What I gave is just a preview hosting of its current website.
 
-> [!NOTE]
-> Further information about each card will be a data of its own. This could mean we are possibly making our own set of data for anyone to use as API.
-
 ### Resources Used
 * [W3School Documentations](https://www.w3schools.com/)
 * [Vanilla-tilt.js](https://micku7zu.github.io/vanilla-tilt.js/)
@@ -27,9 +24,11 @@ What I gave is just a preview hosting of its current website.
     </details>
 
 > [!IMPORTANT]
-> If you want to fork some of my JS functions or use some of the assets in this file, please ask [Kyutka3](https://github.com/0ofline)) and [Jideeh](https://x.com/jideeh1) for Permission!
+> If you want to fork some of my JS functions or use some of the assets in this file, please ask [Kyutka3](https://github.com/0ofline) and [Jideeh](https://x.com/jideeh1) for Permission!
+> [!NOTE]
+> Further information about each card will be a data of its own. This could mean we are making our own set of data for anyone to use as API.
 
 ## License
-The source code for this fan porject is licensed under the MIT License. click the <a href="License.txt">LICENSE</a>file for more details.
+The source code for this fan project is licensed under the MIT License. click the <a href="License.txt">LICENSE</a> file for more details.
 
 Pokémon and Pokémon card images are © Nintendo, Creatures Inc., GAME FREAK, and The Pokémon Company. These images are used for fan purposes only and are not licensed under the MIT License. This website is a fan project and is not affiliated with or endorsed by any of these companies. All trademarks and copyrights are property of their respective owners.
