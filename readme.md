@@ -14,7 +14,10 @@ What I gave is just a preview hosting of its current website.
 * [Vanilla-tilt.js](https://micku7zu.github.io/vanilla-tilt.js/)
 * [W3School Documentations](https://www.w3schools.com/)
 * [mdnW Web Docs](https://developer.mozilla.org/en-US/)
+* [Card PNGs](https://bulbapedia.bulbagarden.net/wiki/Paldea_Evolved_(TCG))
+* [Card List](https://www.tcgcollector.com/sets/11574/paldea-evolved?releaseDateOrder=newToOld&displayAs=images)
+* [Card Information](https://tcg.pokemon.com/en-us/expansions/paldea-evolved/)
 
 
 > [!NOTE]
-> If you want to fork some of my JS functions or use some of the assets in this file, please ask [QNJazmine](https://x.com/QNJazmine) and [Jideeh](https://x.com/jideeh1) for Permission!
+> If you want to fork some of my JS functions or use some of the assets in this file, please ask [Kyutka3](https://github.com/0ofline)) and [Jideeh](https://x.com/jideeh1) for Permission!
