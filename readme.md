@@ -25,6 +25,7 @@ What I gave is just a preview hosting of its current website.
 
 > [!IMPORTANT]
 > If you want to fork some of my JS functions or use some of the assets in this file, please ask [Kyutka3](https://github.com/0ofline) and [Jideeh](https://x.com/jideeh1) for Permission!
+
 > [!NOTE]
 > Further information about each card will be a data of its own. This could mean we are making our own set of data for anyone to use as API.
 
