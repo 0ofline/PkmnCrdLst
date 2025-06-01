@@ -2,7 +2,7 @@
 
 ## Commissioned Website
 
-* **Version**: 2025.5.25
+* **Version**: 2025.6.1
 * **Status**: In Development
 * **Developers**: [Jideeh1](https://github.com/Jideeh1), [Kyutka3](https://github.com/0ofline)
 
