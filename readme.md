@@ -24,7 +24,8 @@ What I gave is just a preview hosting of its current website.
     </details>
 
 > [!IMPORTANT]
-> If you want to fork some of my JS functions or use some of the assets in this file, please ask [Kyutka3](https://github.com/0ofline) and [Jideeh](https://x.com/jideeh1) for Permission!
+> If you want to use some JavaScript functions in this project or use original assets in this repository, please ask [Kyutka3](https://github.com/0ofline) and [Jideeh](https://x.com/jideeh1) for Permission!
+> Vanilla-tilt.js and Pokemon TCG Assets not included.
 
 > [!NOTE]
 > Further information about each card will be a data of its own. This could mean we are making our own set of data for anyone to use as API.
