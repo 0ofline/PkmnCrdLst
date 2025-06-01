@@ -32,4 +32,4 @@ What I gave is just a preview hosting of its current website.
 ## License
 The source code for this fan project is licensed under the MIT License. click the <a href="License.txt">LICENSE</a> file for more details.
 
-Pokémon and Pokémon card images are © Nintendo, Creatures Inc., GAME FREAK, and The Pokémon Company. These images are used for fan purposes only and are not licensed under the MIT License. This website is a fan project and is not affiliated with or endorsed by any of these companies. All trademarks and copyrights are property of their respective owners.
+Pokémon and Pokémon card images are © Nintendo, Creatures Inc., GAME FREAK, and The Pokémon Company. These images are used for fan purposes only and are not included under the MIT License. This is only a fan project and is not affiliated with or endorsed by any of these companies. All trademarks and copyrights are property of their respective owners.
