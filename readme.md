@@ -31,6 +31,6 @@ What I gave is just a preview hosting of its current website.
 > Further information about each card will be a data of its own. This could mean we are making our own set of data for anyone to use as API.
 
 ## License
-The source code for this fan project is licensed under the MIT License. Click <a href="License.txt">LICENSE</a> for more details.
+The source code for this fan project is licensed under the MIT License. Click <a href="LICENSE.txt">LICENSE</a> for more details.
 
 Pokémon and Pokémon card images are © Nintendo, Creatures Inc., GAME FREAK, and The Pokémon Company. These images are used for fan purposes only and are not included under the MIT License. This is only a fan project and is not affiliated with or endorsed by any of these companies. All trademarks and copyrights are property of their respective owners.
