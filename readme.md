@@ -6,7 +6,7 @@
 * **Status**: In Development
 * **Developers**: [Jideeh1](https://github.com/Jideeh1), [Kyutka3](https://github.com/0ofline)
 
-This website project is meant to be an archive of Kuytka3's pokemon card collection under the [Paldea Evolved TCG Scarlet and Violet](https://tcg.pokemon.com/en-us/expansions/paldea-evolved/).
+This website project is meant to be an archive of Kuytka3's pokemon card collection under the [Paldea Evolved TCG Scarlet and Violet](https://tcg.pokemon.com/en-us/expansions/paldea-evolved/) collection.
 
 What I gave is just a preview hosting of its current website.
 
